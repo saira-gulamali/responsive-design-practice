@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-  --font-primary: "Aleo", serif;
+  --font-primary: "Ubuntu", sans-serif;
   --font-secondary: "Archivo", sans-serif;
 }

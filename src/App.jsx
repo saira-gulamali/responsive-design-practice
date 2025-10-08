@@ -1,14 +1,14 @@
+import FeatureSection from "./components/FeatureSection";
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <>
-      <h1 className="text-7xl text-green-500 font-bold font-primary underline">
-        Hello world!
-      </h1>
-      <p className="font-secondary text-4xl">bye bye </p>
-      <button>
-        <i className="fa fa-bars"></i>
-      </button>
-    </>
+    <div className="font-secondary">
+      <Navbar />
+      <HeroSection />
+      <FeatureSection />
+    </div>
   );
 }
 
