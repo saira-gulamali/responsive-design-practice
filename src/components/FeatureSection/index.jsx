@@ -1,10 +1,9 @@
-import React from "react";
 import FeatureItem from "./FeatureItem";
 
 export const FeatureSection = () => {
   return (
     <div className="flex justify-center min-h-screen">
-      <div className="border-2 border-red-800 flex flex-col items-center w-full max-w-6xl px-8">
+      <div className=" flex flex-col items-center w-full max-w-6xl px-8">
         <div className=" text-violet-900 text-3xl md:text-4xl py-20  text-center">
           Proudly Disappointing Users, since 2016
         </div>
